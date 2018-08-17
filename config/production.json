@@ -1,0 +1,28 @@
+{
+    "app": {
+        "port": 3000,
+        "name": "nodejs-mongodb_baseline"
+    },
+    "jwt": {
+        "secret": "LOREMIPSUMDOLORAMETSIT12345",
+        "expirationInSeconds": 2592000
+    },
+    "bcrypt": {
+        "salt_factor": 8
+    },
+    "sslSettings": {
+        "key": "/location-to-key.pem",
+        "cert": "/location-to-cert.pem"
+    },
+    "mongodb": {
+        "host": "localhost",
+        "port": 27017,
+        "db": "nodejs-mongodb_baseline",
+        "username": "",
+        "password": "",
+        "fullPath": "mongodb://localhost:27017/nodejs-mongodb_baseline"
+    },
+    "mailler": {
+        "sender": "winstonsazmita@gmail.com"
+    }
+}
